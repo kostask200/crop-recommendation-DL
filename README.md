@@ -168,7 +168,7 @@ Overall, the hyperparameters for both model architectures are performing well an
 
 - `code.ipynb`: This file contains the implementation of the methodology described in the README.
 - `model_train_save.ipynb`: Here, you'll find the code for training and saving the models with the optimized parameters obtained during hyperparameter tuning.
-- `experiments/`: This folder contains plots generated after the hyperparameter tuning process based on the results of the hyperparameter tuning process. Referenced files: `experiments/cv_results_2_hidden_layers.xlsx` and `experiments/cv_results_5_hidden_layers.xlsx`
+- `experiments/`: This folder contains plots generated after the hyperparameter tuning process based on the results of the hyperparameter tuning process. Referenced files: `cv_results_2_hidden_layers.xlsx` and `cv_results_5_hidden_layers.xlsx`
 - `statistics/`: Inside this folder, you'll find plots that describe various statistical aspects of the dataset.
 - `Crop_recommendation.csv`: This dataset serves as the foundation for training and testing the crop recommendation models.
 - `saved_models/model2hidden.pth` and `saved_models/model5hidden.pth`: These are the saved models resulting from the training process, ready to be deployed and utilized.
