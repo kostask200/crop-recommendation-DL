@@ -8,8 +8,9 @@ Ever since the introduction of precision agriculture, crop recommendation system
 This project aims to develop a robust neural network model capable of accurately predicting the best crops to cultivate in a given area. By harnessing the power of deep learning, we seek to provide farmers with valuable insights that can enhance their decision-making process and ultimately maximize crop yields.
 
 ## Methodology
-1. **Data Acquisition:** Acquire the dataset from Kaggle, a popular platform for hosting datasets, ensuring its relevance to the crop recommendation task.
-   
+1. **Data Acquisition:** 
+    - Acquire the dataset from Kaggle, a popular platform for hosting datasets, ensuring its relevance to the crop recommendation task.
+      
 2. **Data Preprocessing:**
     - Identify and handle missing values to maintain data integrity.
     - Detect and address outliers using the Interquartile Range (IQR) method to prevent them from skewing the analysis.
