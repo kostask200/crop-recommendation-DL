@@ -107,16 +107,59 @@ These findings provide valuable insights into the impact of hyperparameters on t
 |----------------|-----------|--------|----------|---------|
 | apple          | 1.00      | 1.00   | 1.00     | 30      |
 | banana         | 1.00      | 1.00   | 1.00     | 30      |
-| ...            | ...       | ...    | ...      | ...     |
-| Weighted Avg   | 0.98      | 0.98   | 0.98     | 660     |
+| black gram     | 0.97      | 1.00   | 0.98     | 30      |
+| chickpea       | 1.00      | 1.00   | 1.00     | 30      |
+| coconut        | 1.00      | 1.00   | 1.00     | 30      |
+| coffee         | 1.00      | 1.00   | 1.00     | 30      |
+| cotton         | 0.97      | 0.97   | 0.97     | 30      |
+| grapes         | 1.00      | 1.00   | 1.00     | 30      |
+| jute           | 0.86      | 1.00   | 0.92     | 30      |
+| kidney beans   | 0.97      | 1.00   | 0.98     | 30      |
+| lentil         | 1.00      | 1.00   | 1.00     | 30      |
+| maize          | 0.97      | 0.93   | 0.95     | 30      |
+| mango          | 0.94      | 1.00   | 0.97     | 30      |
+| moth beans     | 1.00      | 0.93   | 0.97     | 30      |
+| mung bean      | 1.00      | 1.00   | 1.00     | 30      |
+| muskmelon      | 1.00      | 1.00   | 1.00     | 30      |
+| orange         | 1.00      | 1.00   | 1.00     | 30      |
+| papaya         | 1.00      | 1.00   | 1.00     | 30      |
+| pigeon peas    | 1.00      | 0.97   | 0.98     | 30      |
+| pomegranate    | 1.00      | 1.00   | 1.00     | 30      |
+| rice           | 1.00      | 0.83   | 0.91     | 30      |
+| watermelon     | 1.00      | 1.00   | 1.00     | 30      |
+| **Accuracy**   | **0.98**  |        |          | **660** |
+| **Macro Avg**  | **0.98**  | **0.98** | **0.98** | **660** |
+| **Weighted Avg** | **0.98** | **0.98** | **0.98** | **660** |
+
 
 #### Classification Report - 5 Hidden Layer Architecture
 | Class          | Precision | Recall | F1-Score | Support |
 |----------------|-----------|--------|----------|---------|
 | apple          | 1.00      | 1.00   | 1.00     | 30      |
 | banana         | 1.00      | 1.00   | 1.00     | 30      |
-| ...            | ...       | ...    | ...      | ...     |
-| Weighted Avg   | 0.98      | 0.98   | 0.98     | 660     |
+| black gram     | 1.00      | 1.00   | 1.00     | 30      |
+| chickpea       | 1.00      | 1.00   | 1.00     | 30      |
+| coconut        | 0.97      | 1.00   | 0.98     | 30      |
+| coffee         | 1.00      | 1.00   | 1.00     | 30      |
+| cotton         | 0.97      | 0.97   | 0.97     | 30      |
+| grapes         | 1.00      | 1.00   | 1.00     | 30      |
+| jute           | 0.85      | 0.93   | 0.89     | 30      |
+| kidney beans   | 1.00      | 1.00   | 1.00     | 30      |
+| lentil         | 1.00      | 0.97   | 0.98     | 30      |
+| maize          | 0.97      | 0.97   | 0.97     | 30      |
+| mango          | 1.00      | 1.00   | 1.00     | 30      |
+| moth beans     | 0.97      | 1.00   | 0.98     | 30      |
+| mung bean      | 1.00      | 1.00   | 1.00     | 30      |
+| muskmelon      | 1.00      | 1.00   | 1.00     | 30      |
+| orange         | 1.00      | 0.97   | 0.98     | 30      |
+| papaya         | 1.00      | 1.00   | 1.00     | 30      |
+| pigeon peas    | 1.00      | 1.00   | 1.00     | 30      |
+| pomegranate    | 1.00      | 1.00   | 1.00     | 30      |
+| rice           | 0.93      | 0.83   | 0.88     | 30      |
+| watermelon     | 1.00      | 1.00   | 1.00     | 30      |
+| **Accuracy**   | **0.98**  |        |          | **660** |
+| **Macro Avg**  | **0.98**  | **0.98** | **0.98** | **660** |
+| **Weighted Avg** | **0.98** | **0.98** | **0.98** | **660** |
 
 Overall, the hyperparameters for both model architectures are performing well and are aligned with the general findings of the experimentation process. Both models reveal consistent high performance across most classes, with both of them achieving an accuracy of 0.98. However, there are some subtle variations in the metrics for certain classes that highlight differences in the model’s ability to accurately classify specific instances. Overall, while both models can accurately classify, selecting the most suitable model may depend on the specific priorities of the classification at hand. Both of them prove to be suitable for a crop recommendation system that utilizes AI.
 
