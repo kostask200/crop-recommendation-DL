@@ -164,4 +164,12 @@ These findings provide valuable insights into the impact of hyperparameters on t
 
 Overall, the hyperparameters for both model architectures are performing well and are aligned with the general findings of the experimentation process. Both models reveal consistent high performance across most classes, with both of them achieving an accuracy of 0.98. However, there are some subtle variations in the metrics for certain classes that highlight differences in the model’s ability to accurately classify specific instances. Overall, while both models can accurately classify, selecting the most suitable model may depend on the specific priorities of the classification at hand. Both of them prove to be suitable for a crop recommendation system that utilizes AI.
 
+## Important Note
+
+- `code.ipynb`: This file contains the implementation of the methodology described in the README.
+- `model_train_save.ipynb`: Here, you'll find the code for training and saving the models with the optimized parameters obtained during hyperparameter tuning.
+- `experiments/`: This folder contains plots generated after the hyperparameter tuning process based on the results of the hyperparameter tuning process. Referenced files: `cv_results_2_hidden_layers.xlsx` and `cv_results_5_hidden_layers.xlsx`
+- `statistics/`: Inside this folder, you'll find plots that describe various statistical aspects of the dataset.
+- `Crop_recommendation.csv`: This dataset serves as the foundation for training and testing the crop recommendation models.
+- `model2hidden.pth` and `model5hidden.pth`: These are the saved models resulting from the training process, ready to be deployed and utilized.
 
